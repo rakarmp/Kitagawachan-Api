@@ -8,43 +8,9 @@
     ],
     "routes": [
       {
-        "src": "/quotes/random",
+        "src": "/(.*)",
         "dest": "/index.js"
-      },
-      {
-        "src": "/quotes/random/:animeTitle",
-        "dest": "/index.js"
-      },
-      {
-        "src": "/quotes/random/character/:animeCharacter",
-        "dest": "/index.js"
-      },
-      {
-        "src": "/quotes/random/5",
-        "dest": "/index.js"
-      },
-      {
-        "src": "/quotes/random/5/:animeTitle",
-        "dest": "/index.js"
-      },
-      {
-        "src": "/quotes/character/:animeCharacter",
-        "dest": "/index.js"
-      },
-      {
-        "src": "/quotes",
-        "methods": ["POST"],
-        "dest": "/index.js"
-      },
-      {
-        "src": "/quotes",
-        "dest": "/index.js"
-      },
-      {
-        "src": "/",
-        "status": 404,
-        "dest": "/trypost.html"
       }
     ]
-  }
+}
   
