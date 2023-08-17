@@ -5,6 +5,7 @@ const cors = require("cors");
 
 // Express installation
 const app = express();
+app.use(express.static(__dirname));
 // app.use(cors());
 app.use(cors());
 
