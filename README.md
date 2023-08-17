@@ -1,8 +1,13 @@
 <div align='center'>
-<img src='Kitagawachan.jpg' alt='kitagawachan'/>
+<img src='Kitagawachan.jpg' alt='kitagawachan' width='150px' height='200px'/>
 
-<br />
+  <h3>Kitagawachan Api</h3>
+
+<samp>Rest Api Collection Quote Anime</samp>
+
 </div>
+
+<br /><br />
 
 _Welcome to the Kitagawachan Api documentation. This API provides a collection of quotes from various anime series and characters. You can retrieve random quotes, quotes by anime title, quotes by anime character, create new quotes, and more. The API is built using Express.js and MongoDB._
 
