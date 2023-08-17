@@ -6,11 +6,7 @@ const cors = require("cors");
 // Express installation
 const app = express();
 // app.use(cors());
-app.use(
-  cors({
-    origin: "*",
-  })
-);
+app.use(cors());
 
 // Connect to MongoDB
 mongoose
