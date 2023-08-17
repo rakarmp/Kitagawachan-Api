@@ -43,7 +43,7 @@
       {
         "src": "/",
         "status": 404,
-        "dest": "/index.js"
+        "dest": "/trypost.html"
       }
     ]
   }
