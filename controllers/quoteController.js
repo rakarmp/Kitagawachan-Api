@@ -1,5 +1,9 @@
 const Quote = require("../models/quote");
 
+exports.home = (req, res) => {
+  res.send("Welcome to Quote API");
+};
+
 // Mendapatkan quote acak
 exports.getRandomQuote = async (req, res) => {
   try {

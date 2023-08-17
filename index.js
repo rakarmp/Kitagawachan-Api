@@ -28,6 +28,9 @@ app.use(bodyParser.json());
 // Import controller
 const quoteController = require("./controllers/quoteController");
 
+// Home route
+app.get("/", quoteController.home);
+
 // Mendapatkan quote acak
 app.get("/quotes/random", quoteController.getRandomQuote);
 
