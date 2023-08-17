@@ -1,7 +1,9 @@
 const Quote = require("../models/quote");
 
 exports.home = (req, res) => {
-  res.send("Welcome to Quote API");
+  res.send(
+    "Welcome to Anime Quote API | To Try Post Request, Go to /trypost.html"
+  );
 };
 
 // Mendapatkan quote acak
