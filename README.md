@@ -11,7 +11,7 @@
 
 _Welcome to the Kitagawachan Api documentation. This API provides a collection of quotes from various anime series and characters. You can retrieve random quotes, quotes by anime title, quotes by anime character, create new quotes, and more. The API is built using Express.js and MongoDB._
 
-[Try post request]("https://kitagawachan-api.vercel.app/trypost")
+To test the POST request functionality, you can visit the [Try POST Request Page](https://kitagawachan-api.vercel.app/trypost) in your web browser. This page allows you to submit quotes to the Kitagawachan-Api and see the response.
 
 **Base URL**: `http://localhost:8000` (Update the URL if your server is running on a different host/port)
 
