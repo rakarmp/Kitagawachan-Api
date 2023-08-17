@@ -5,9 +5,13 @@ const cors = require("cors");
 
 // Express installation
 const app = express();
-app.use(express.static(__dirname));
-// app.use(cors());
+app.use(express.static("views"));
+
 app.use(cors());
+
+app.get("/trypost", (req, res) => {
+  res.sendFile(__dirname + "/views/trypost.html");
+});
 
 // Connect to MongoDB
 mongoose
