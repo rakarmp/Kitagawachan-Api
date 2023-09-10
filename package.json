@@ -16,5 +16,11 @@
     "mongoose": "^7.4.3",
     "mongoose-paginate-v2": "^1.7.31",
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

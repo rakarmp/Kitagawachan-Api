@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
+const port = 3000;
 // Express installation
 const app = express();
 app.use(express.static("views"));
@@ -68,6 +69,6 @@ app.get("/quotes", quoteController.getQuotesWithPagination);
 app.post("/quotes", quoteController.createQuote);
 
 // Menjalankan server pada port 3000
-app.listen(8000, () => {
-  console.log(`Server is running on port 8000`);
+app.listen(port, () => {
+  console.log(`Running on http://localhost:${port}`);
 });
