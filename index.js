@@ -5,6 +5,8 @@ const cors = require("cors");
 
 // Express installation
 const app = express();
+const port = 8000;
+
 app.use(express.static("views"));
 
 app.use(cors());
@@ -68,6 +70,6 @@ app.get("/quotes", quoteController.getQuotesWithPagination);
 app.post("/quotes", quoteController.createQuote);
 
 // Menjalankan server pada port 3000
-app.listen(8000, () => {
-  console.log(`Server is running on port 8000`);
+app.listen(port, () => {
+  console.log(`Server is running on port: ${port}`);
 });
